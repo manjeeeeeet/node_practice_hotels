@@ -16,6 +16,9 @@ app.get("/", (req, res) => {
   res.send("Hello, World!");
 });
 
+// learn about git and github 
+
+
 
 app.use("/person", personRoutes);
 app.use("/menu", menuRoutes);
